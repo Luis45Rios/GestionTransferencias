@@ -1,7 +1,4 @@
-from tkinter import *
+from GUI import iniciar_app
 
-ventana = Tk()
-ventana.title("Gestiòn de Transferencias")
-ventana.iconbitmap("img/iconoGestor.ico")
-
-ventana.mainloop()
+if __name__ == '__main__':
+    iniciar_app()
